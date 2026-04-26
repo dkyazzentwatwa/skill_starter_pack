@@ -1,0 +1,14 @@
+interface:
+  display_name: Notion Ops
+  short_description: Seamless read/write workflows for Notion connector operations.
+  icon: 🧱
+  color: '#111111'
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

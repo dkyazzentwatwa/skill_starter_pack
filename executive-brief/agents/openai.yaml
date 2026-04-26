@@ -1,0 +1,7 @@
+interface:
+  display_name: Executive Brief
+  short_description: Turn messy multi-source context into a concise executive briefing.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

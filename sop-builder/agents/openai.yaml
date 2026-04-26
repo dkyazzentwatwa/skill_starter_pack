@@ -1,0 +1,7 @@
+interface:
+  display_name: SOP Builder
+  short_description: Turn rough process knowledge into clean, operator-ready SOPs.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true

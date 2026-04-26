@@ -1,0 +1,20 @@
+interface:
+  display_name: Google Drive Operator
+  short_description: connector-first google drive operator for searching, reading,
+    organizing, sharing, auditing, and automating drive files and folders through
+    chatgpt-connected google drive workflows. use when chatgpt needs to locate files,
+    inspect folders, summarize drive contents, create or rename folders, move or delete
+    files, manage sharing, detect inherited or external access, clean duplicates,
+    or run organization workflows such as sorting invoices by month or archiving stale
+    files. execute read-only actions immediately. for destructive, bulk, or permission-changing
+    actions, inspect first, propose a short execution plan, and wait for approval
+    before applying changes.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

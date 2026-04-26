@@ -1,0 +1,29 @@
+interface:
+  display_name: brand voice
+  short_description: 'Write, rewrite, or audit any content in the business''s actual
+    brand voice — not generic AI output.
+
+    Use this skill whenever the user asks for captions, emails, sales copy, launch
+    copy, website copy,
+
+    DMs, scripts, posts, content rewrites, nurture sequences, or says things like
+    "write this in my voice",
+
+    "make this sound like me", "rewrite this", "does this sound on-brand", "too formal",
+    "too robotic",
+
+    or any request where the output needs to match a specific tone, style, or personality.
+
+    Also trigger when the user pastes their own draft and wants it improved or adjusted.
+
+    When in doubt, use this skill — voice consistency is the difference between content
+    that converts and content that gets ignored.'
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
