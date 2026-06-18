@@ -41,8 +41,6 @@ Use this pack as:
 | `pptx` | folder | Create, edit, and analyze PowerPoint presentations |
 | `xlsx` | folder | Create, edit, and analyze Excel spreadsheets |
 
-The included `.skill` files are ZIP archive copies of `ig-story-carousel`, `inbox-briefing`, and `strategy`. The expanded folders are easier to inspect and edit. If an app requires a `.zip` extension, copy or rename the `.skill` file to `.zip` before uploading.
-
 ## Compatibility Snapshot
 
 | Surface | Best install shape | Invocation style | Notes |
@@ -102,7 +100,7 @@ It can also choose a skill automatically when the request matches the skill desc
 
 ChatGPT supports uploaded skills in supported workspaces.
 
-1. Package the skill as a ZIP if it is not already archived.
+1. Package the skill folder as a ZIP.
 2. In ChatGPT, open Skills from your profile or workspace skill page.
 3. Choose New skill, then Upload from your computer.
 4. Review any scan or review status before using the skill.
@@ -114,14 +112,6 @@ zip -r executive-brief.zip executive-brief
 ```
 
 Then upload `executive-brief.zip`.
-
-For a bundled `.skill` archive:
-
-```bash
-cp inbox-briefing.skill inbox-briefing.zip
-```
-
-Then upload `inbox-briefing.zip` if ChatGPT expects a `.zip` file.
 
 ## Install for the Claude app
 
