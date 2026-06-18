@@ -1,0 +1,6 @@
+interface:
+  display_name: "Spreadsheet"
+  short_description: "Create, clean, analyze, and edit spreadsheets"
+  default_prompt: "Use $xlsx to clean, analyze, or create this spreadsheet."
+policy:
+  allow_implicit_invocation: true

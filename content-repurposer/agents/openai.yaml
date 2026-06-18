@@ -1,2 +1,6 @@
 interface:
   display_name: "Content Repurposer"
+  short_description: "Repurpose one source into platform-ready content"
+  default_prompt: "Use $content-repurposer to turn this source into platform-specific content."
+policy:
+  allow_implicit_invocation: true

@@ -1,7 +1,8 @@
 interface:
-  display_name: Executive Brief
-  short_description: Turn messy multi-source context into a concise executive briefing.
-  icon_small: assets/icon.svg
-  icon_large: assets/icon.svg
+  display_name: "Executive Brief"
+  short_description: "Turn messy context into a decision-ready brief"
+  icon_small: "assets/icon.svg"
+  icon_large: "assets/icon.svg"
+  default_prompt: "Use $executive-brief to turn this messy context into a concise briefing."
 policy:
   allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Workflow To Skill"
+  short_description: "Turn one good workflow into a repeatable skill"
+  default_prompt: "Use $workflow-to-skill to turn this completed workflow into a reusable skill."
+policy:
+  allow_implicit_invocation: true

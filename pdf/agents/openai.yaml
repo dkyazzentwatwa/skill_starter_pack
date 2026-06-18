@@ -1,0 +1,6 @@
+interface:
+  display_name: "PDF"
+  short_description: "Read, create, edit, merge, split, and OCR PDFs"
+  default_prompt: "Use $pdf to inspect this PDF and help me make the requested changes."
+policy:
+  allow_implicit_invocation: true

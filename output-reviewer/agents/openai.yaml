@@ -1,0 +1,6 @@
+interface:
+  display_name: "Output Reviewer"
+  short_description: "Review AI outputs for accuracy, PII, and polish"
+  default_prompt: "Use $output-reviewer to review this draft for accuracy, privacy, PII, and readiness."
+policy:
+  allow_implicit_invocation: true

@@ -1,7 +1,8 @@
 interface:
-  display_name: SOP Builder
-  short_description: Turn rough process knowledge into clean, operator-ready SOPs.
-  icon_small: assets/icon.svg
-  icon_large: assets/icon.svg
+  display_name: "SOP Builder"
+  short_description: "Turn rough process notes into operator-ready SOPs"
+  icon_small: "assets/icon.svg"
+  icon_large: "assets/icon.svg"
+  default_prompt: "Use $sop-builder to turn this process into a clear SOP."
 policy:
   allow_implicit_invocation: true

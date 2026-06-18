@@ -1,14 +1,8 @@
 interface:
-  display_name: Notion Ops
-  short_description: Seamless read/write workflows for Notion connector operations.
-  icon: 🧱
-  color: '#111111'
-  icon_small: assets/icon.svg
-  icon_large: assets/icon.svg
+  display_name: "Notion Ops"
+  short_description: "Search, update, and organize Notion workspaces"
+  icon_small: "assets/icon.svg"
+  icon_large: "assets/icon.svg"
+  default_prompt: "Use $notion-ops to find, summarize, or update this Notion workspace."
 policy:
-  products:
-  - chatgpt
-  - codex
-  - api
-  - atlas
   allow_implicit_invocation: true

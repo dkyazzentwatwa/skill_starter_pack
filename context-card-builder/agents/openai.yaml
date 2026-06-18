@@ -1,0 +1,6 @@
+interface:
+  display_name: "Context Card Builder"
+  short_description: "Turn messy background into reusable AI context"
+  default_prompt: "Use $context-card-builder to turn my messy notes into a reusable context card."
+policy:
+  allow_implicit_invocation: true

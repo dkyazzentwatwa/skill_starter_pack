@@ -1,0 +1,6 @@
+interface:
+  display_name: "PowerPoint"
+  short_description: "Create, inspect, and edit slide decks"
+  default_prompt: "Use $pptx to create or update this presentation."
+policy:
+  allow_implicit_invocation: true

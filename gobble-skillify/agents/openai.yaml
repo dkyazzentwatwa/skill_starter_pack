@@ -1,0 +1,6 @@
+interface:
+  display_name: "Gobble Skillify"
+  short_description: "Route captures and turn repeatable workflows into skills"
+  default_prompt: "Use $gobble-skillify to decide whether this source is worth keeping, routing, or turning into a skill."
+policy:
+  allow_implicit_invocation: true

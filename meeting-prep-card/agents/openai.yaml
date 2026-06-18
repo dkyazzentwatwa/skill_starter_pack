@@ -1,0 +1,6 @@
+interface:
+  display_name: "Meeting Prep Card"
+  short_description: "Prepare for a meeting from messy context"
+  default_prompt: "Use $meeting-prep-card to make a 10-minute prep card for this meeting."
+policy:
+  allow_implicit_invocation: true

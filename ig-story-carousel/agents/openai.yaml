@@ -1,0 +1,6 @@
+interface:
+  display_name: "IG Story Carousel"
+  short_description: "Create polished Instagram slides and stories"
+  default_prompt: "Use $ig-story-carousel to create a polished Instagram carousel from this idea."
+policy:
+  allow_implicit_invocation: true

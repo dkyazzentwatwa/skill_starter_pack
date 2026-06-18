@@ -1,12 +1,8 @@
 interface:
-  display_name: Prompt Optimizer
-  short_description: Improve prompts, generate variants, and add quick eval checks
-  icon_small: assets/icon.svg
-  icon_large: assets/icon.svg
+  display_name: "Prompt Optimizer"
+  short_description: "Improve prompts and add quick eval checks"
+  icon_small: "assets/icon.svg"
+  icon_large: "assets/icon.svg"
+  default_prompt: "Use $prompt-optimizer to improve this prompt and make it easier to test."
 policy:
-  products:
-  - chatgpt
-  - codex
-  - api
-  - atlas
   allow_implicit_invocation: true

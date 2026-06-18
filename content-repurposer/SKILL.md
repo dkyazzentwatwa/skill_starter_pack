@@ -37,7 +37,7 @@ Use this default voice:
 - educational
 - clear rather than ornate
 - specific rather than vague
-- confident without sounding like a marketing goblin
+- confident without sounding like generic marketing copy
 
 Write with tension and point of view. Avoid bland agreeability. Prefer:
 - “most people think X, but the useful truth is Y”
